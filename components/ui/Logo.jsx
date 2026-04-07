@@ -12,11 +12,12 @@ const Logo = ({
   shadow = "shadow-lg",
   rounded = "rounded-3xl",
   bgColor = "bg-black/80",
-  shadowColor = "#8754ff",
+  shadowColor = "#6fff52",
   src = "/logo/logo-white.svg",
 }) => {
   const containerClasses = clsx(
     "mx-auto w-fit",
+    `h-20 w-20 flex items-center justify-center`,
     shadow,
     bgColor,
     padding,
