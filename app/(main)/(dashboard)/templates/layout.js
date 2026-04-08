@@ -31,7 +31,7 @@ export default async function TemplateLayout({ children }) {
 
         {!isLoggedIn && (
           <div className="flex gap-3">
-            <Link href={"https://deforge.io"} className="flex items-center">
+            <Link href={"https://runanvil.com"} className="flex items-center">
               <Image
                 src="/logo/logo-black.svg"
                 alt="Deforge Logo"

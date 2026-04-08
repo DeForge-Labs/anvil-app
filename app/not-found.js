@@ -27,7 +27,7 @@ export default function NotFound() {
           </p>
 
           <div className="mt-4 flex w-full">
-            <Link href="https://deforge.io" className="flex-1">
+            <Link href="https://runanvil.com" className="flex-1">
               <Button
                 className="h-11 text-xs border-black/10 w-full before:rounded-t-none dark:border-white/10 border-l-0 border-b-0 rounded-br-none rounded-t-none text-destructive"
                 variant="outline"

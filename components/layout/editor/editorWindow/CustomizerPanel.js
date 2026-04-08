@@ -138,7 +138,7 @@ export default function CustomizerPanel() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Link
-              href={`https://docs.deforge.io/docs/library/nodes/${nodeType.category}/${nodeType.type}`}
+              href={`https://docs.runanvil.com/docs/library/nodes/${nodeType.category}/${nodeType.type}`}
               target="_blank"
             >
               <Badge

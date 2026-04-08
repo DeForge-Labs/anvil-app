@@ -139,7 +139,7 @@ export default async function PlanBalance({ teamId }) {
             </div>
 
             <div className="flex items-center gap-2">
-              <Link href="https://deforge.io/pricing" target="_blank">
+              <Link href="https://runanvil.com/pricing" target="_blank">
                 <Button
                   variant="outline"
                   className="flex gap-2 font-normal text-xs bg-background border border-foreground/20 rounded-sm w-fit"
@@ -147,8 +147,8 @@ export default async function PlanBalance({ teamId }) {
                   View Plans
                 </Button>
               </Link>
-              {credits?.plan !== "enterprise" && (
-                planInfo?.cancelled ? (
+              {credits?.plan !== "enterprise" &&
+                (planInfo?.cancelled ? (
                   <div className="flex flex-col gap-0.5">
                     <span className="text-xs text-foreground/50">
                       Plan will expire on{" "}
@@ -161,8 +161,7 @@ export default async function PlanBalance({ teamId }) {
                   </div>
                 ) : (
                   <UpgradeWindow currentPlan={credits?.plan} teamId={teamId} />
-                )
-              )}
+                ))}
             </div>
           </div>
         </div>

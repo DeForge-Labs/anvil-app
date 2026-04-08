@@ -14,13 +14,13 @@ export default async function DashboardNew({ params }) {
     <div className="absolute h-full w-full overflow-hidden overflow-y-auto hide-scroll p-6">
       <div className="flex flex-col items-center justify-center gap-2 relative">
         <div className="z-10 flex flex-col gap-2 items-center pt-48 relative">
-          <div className="absolute top-5 left-1/2 -translate-x-1/2 w-full h-full flex items-center justify-center">
+          <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-full h-full flex items-center justify-center">
             <Image
               src="/logo/logo-outline.svg"
               alt="logo"
               width={400}
               height={400}
-              className="opacity-5 dark:invert"
+              className="opacity-10 not-dark:invert"
             />
           </div>
 

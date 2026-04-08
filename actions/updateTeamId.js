@@ -9,7 +9,8 @@ export async function updateLastTeamIdCookie(value) {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
-    domain: process.env.NODE_ENV === "production" ? ".deforge.io" : "localhost",
+    domain:
+      process.env.NODE_ENV === "production" ? ".runanvil.com" : "localhost",
     maxAge: 60 * 60 * 24 * 7,
     path: "/",
   });

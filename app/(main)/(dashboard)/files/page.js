@@ -10,8 +10,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Files | Deforge.io",
-  description: "Manage and organize your files on Deforge.io",
+  title: "Files | runanvil.com",
+  description: "Manage and organize your files on runanvil.com",
 };
 
 const LOADING_SKELETON = (
@@ -35,7 +35,7 @@ const FilesPage = async ({ searchParams }) => {
             <h1 className="text-sm font-medium">Files</h1>
 
             <p className="text-xs text-foreground/50">
-              Manage and organize your files on Deforge.io
+              Manage and organize your files on runanvil.com
             </p>
           </div>
         </div>

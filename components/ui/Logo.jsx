@@ -2,6 +2,7 @@ import clsx from "clsx";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 const Logo = ({
   size = 50,
@@ -17,18 +18,19 @@ const Logo = ({
 }) => {
   const containerClasses = clsx(
     "mx-auto w-fit",
-    `h-20 w-20 flex items-center justify-center`,
     shadow,
     bgColor,
     padding,
     rounded,
-    shadowColor && `shadow-[${shadowColor}]`,
+    shadowColor ? `shadow-[${shadowColor}]` : `shadow-[#6fff52]`,
     className
   );
 
   const content = (
     <div className={containerClasses}>
-      <Image src={src} alt={alt} width={size} height={size} priority />
+      <div className={cn(`flex items-center justify-center`)} style={{ height: size, width: size }}>
+        <Image src={src} alt={alt} width={size} height={size} priority />
+      </div>
     </div>
   );
 

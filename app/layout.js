@@ -14,8 +14,8 @@ const lexendDeca = Lexend_Deca({
 });
 
 export const metadata = {
-  title: "Deforge.io",
-  description: "Build AI Agents Visually, No Code Required",
+  title: "Anvil",
+  description: "The Web3 Native Automation Platform",
 };
 
 export default function RootLayout({ children }) {

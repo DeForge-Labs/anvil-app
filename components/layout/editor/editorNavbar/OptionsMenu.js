@@ -75,12 +75,12 @@ export default function OptionsMenu() {
                 Billing <ExternalLink className="ms-auto" />
               </MenuItem>
             </Link>
-            <Link href={"https://docs.deforge.io"} target="_blank">
+            <Link href={"https://docs.runanvil.com"} target="_blank">
               <MenuItem className="cursor-pointer">
                 Documentation <ExternalLink className="ms-auto" />
               </MenuItem>
             </Link>
-            <Link href={"https://forum.deforge.io"} target="_blank">
+            <Link href={"https://forum.runanvil.com"} target="_blank">
               <MenuItem className="cursor-pointer">
                 Community Forum <ExternalLink className="ms-auto" />
               </MenuItem>

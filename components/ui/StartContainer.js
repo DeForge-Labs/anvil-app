@@ -45,7 +45,7 @@ const StartContainer = ({ children }) => {
       <footer className="flex items-center justify-center gap-3 py-8 px-4 text-black/60 dark:text-foreground">
         <FooterLink
           label="Docs"
-          href="https://docs.deforge.io"
+          href="https://docs.runanvil.com"
           icon={<StickyNote className="w-3 h-3" />}
         />
 
